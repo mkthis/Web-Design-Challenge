@@ -1,1 +1,3 @@
 # Web-Design-Challenge
+
+This website was built to show the relationship between latitude and four aspects of weather: temperature, humidity, cloudiness, and wind speed. The analysis was completed in a previous homework assignment. The home page summarizes the project, and there exists a page for each of the four aspects of weather examined, which include the plots. Also displayed is a comparisons page with each plot on one page, and the data used for the project rounds out the website. 

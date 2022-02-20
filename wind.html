@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Latitude and Weather</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+        <div class="container"> 
+            <h3><a href="index.html">Latitude and Weather</a></h3>
+            <button class="pull-left navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarSupportedContent" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="temp.html">Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>                         
+                            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                        </div>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div id = "content" class="col-md-8" >
+                <h1>Wind Speed </h1>
+                <a target = "blank" href="Resources/images/Fig4.png"><center><img class="thumbnail2" alt="Fig4" src="Resources/images/Fig4.png"/></center></a>
+                <p>
+                    While there is a weak positive correlation between wind speed and latitude in the Northern Hemisphere, there is a moderately stronger negative correlation between the variables in the Southern Hemisphere. That is, wind speed decreases as we approach the equator in both hemispheres, but the r-squared values indicate that this is a stronger relationship in the Southern Hemisphere. It is worth noting that there are many more data points in the Northern Hemisphere than the Southern Hemisphere, yet there is still a stronger correlation in the South than in the North. I believe that this demonstrates an actual effect of latitude on wind speed in the Southern Hemisphere, and the relationship is less likely to be due to random chance in the Southern Hemisphere and more likely to be due to chance in the Northern Hemisphere.
+                </p>
+            </div>
+    
+    
+            <div id = "content" class="col-md-4" >
+                <h2>Visualizations</h2>
+                <a target = "blank" href="Resources/images/Fig1.png"><img class = "thumbnail" alt="Fig1" src="Resources/images/Fig1.png" /></a>
+                <a target = "blank" href="Resources/images/Fig2.png"><img class = "thumbnail" alt="Fig2" src="Resources/images/Fig2.png" /></a>
+                <a target = "blank" href="Resources/images/Fig3.png"><img class = "thumbnail" alt="Fig3" src="Resources/images/Fig3.png" /></a>
+                <a target = "blank" href="Resources/images/Fig4.png"><img class = "thumbnailborder" alt="Fig4" src="Resources/images/Fig4.png" /></a>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    </body>
+    
+    </html>
